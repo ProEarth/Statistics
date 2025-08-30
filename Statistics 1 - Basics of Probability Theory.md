@@ -2,17 +2,6 @@
 Title: STAT601 Statistics 1 - Basics of Probability Theory
 Author: Shi Chen
 Date: 2025-08-30
-Labels:
-  - Math
-  - Probability
-  - Statistics
-  - Algebra
-  - Probability Function
-  - Probability Axioms
-  - Probability Basic Theorems
-  - Counting
-  - Permutations
-  - Combinations
 ---
 
 # 1. Probability Theory
