@@ -21,7 +21,7 @@ Random Experiment
 >[!example]
 > toss a coin $\{H,T\}$
 
->[!definition] Sample Space
+>[!info] Definition: Sample Space
 >The set of all possible outcomes is sample space $\mathcal{S}$
 
 >[!example]
@@ -32,7 +32,7 @@ Random Experiment
 >Life of lightbulb
 >$\mathcal{S}=[0, \infty)$ uncountable
 
->[!definition] Event
+> [!info] Definition: Event
 > An event is a subset of $\mathcal{S}$.
 
 
@@ -40,7 +40,7 @@ Random Experiment
 >$\{1st~fail~occurs~before~3rd~toss\}$
 > $=\{T,HT\}  \in \mathcal{S}$
 
->[!definition] Event operations
+> [!info] Definition: Event operations
 >> containment
 >> empty set (null set)
 >> 1. union ($A$ or $B$)
@@ -52,34 +52,34 @@ Random Experiment
 >> 4. difference $A\backslash B=A \bigcap B^c$
 
 
->[!definition] partition
+> [!info] Definition: partition
 > 1. A and B are disjoint (mutually exclusive) if $A \bigcup B = \varnothing$
 > 2. $A_1,A_2,\dots,A_n$ form a patition of S if they are pairwise disjoint and the union $\bigcup_{i=1}^n A_i=S$ is exactly the sample space.
 
->[!theorem] distribution laws
+> [!tip] Theorem: distribution laws
 > $$
 > A \bigcap \left(B \bigcup C\right)=\left(A \bigcap B\right) \bigcup \left(A \bigcap C\right)
 > $$
 $$A \equiv B \iff A \subset B \ \ and \ \  B \subset A$$
 
->[!definition] De Margain's laws
+>[!info] Definition: De Margain's laws
 > 1. $(\bigcup_{i=1}^{\infty} A)^c=\bigcap A_i^c$
 > 2. $(\bigcap_{i=1}^{\infty} A)^c=\bigcup A_i^c$
 
 ## 1.2 basics of prob theory
 
->[!definition] 
+> [!info] Definition: Algebra
 > A set of events $\mathcal{A}$ is an algebra if 
 >> 1. $A \in \mathcal{A} \Rightarrow A^c \in \mathcal{A}$
 >> 2. $A_1,A_2 \in \mathcal{A} \Rightarrow A_1 \bigcup A_2 \in \mathcal{A}$
 
 These generates that $A_1\bigcup A_2$, , $\varnothing$($A\bigcap A^c$), $S$($A\bigcup A^c$) must be in $\mathcal{A}$,
 
->[!definition] sigma-Algebra
+>[!info] Definition: sigma-Algebra
 >a non empty set of events $\mathcal{B}$ is a $\sigma$-algebra if $\mathcal{B}$ is an algebra and 
 >$\bigcup_{i=1}^{\infty} A_i \in \mathcal{B},\forall A_i\in \mathcal{B},i=1,2,\dots$
 
->[!note]
+>[!warning] Remarks
 >$\forall A_1,A_2,\dots, \in\mathcal{B}$
 >$\Rightarrow A_1^c,A_2^c,\dots \in \mathcal{B}$
 >$\Rightarrow \bigcap_{i=1}A_i=(\bigcup_{i=1}A_i^c)^c \in \mathcal{B}$
@@ -94,14 +94,14 @@ These generates that $A_1\bigcup A_2$, , $\varnothing$($A\bigcap A^c$), $S$($A\b
 >> 2. $P(\mathcal{S})=1$
 >> 3. If $A_1,A_2,\dots, \in\mathcal{B}$ is pairwise disjoint, then $P\left(\bigcup_{i=1}^{\infty} A_i\right)=\sum_{i=1}^{\infty} P(A_i)$
 
->[!theorem] 
+>[!tip] Theorem: 
 > $P$ is a probability function and $A\in \mathcal{B}$, then,
 > > 1. $P(\varnothing)=0$
 > > 2. For any pairwise disjoint $A_1,A_2,\dots,A_n \in\mathcal{B}$, $P\left(\bigcup_{i=1}^{n} A_i\right)=\sum_{i=1}^{n} P(A_i)$
 > > 3. $P(A^c)=1-P(A)$
 > > 4. $P(A)\leq 1$
 
->[!theorem] 
+>[!tip] Theorem: 
 > $P$ is a probability function and $A，B\in \mathcal{B}$, then,
 > > 1. $P(B\bigcap A^c)=P(B)-P(A\bigcap B)$
 > > 2.  $P(A\bigcup B)=P(A)+P(B)-P(A\bigcup B)$
@@ -112,12 +112,12 @@ These generates that $A_1\bigcup A_2$, , $\varnothing$($A\bigcap A^c$), $S$($A\b
 for finite sample space $S=\{s_1,s_2,\dots,s_n\}$, and each outcome has equal probability $P(i)=\frac{1}{|S|}=\frac{1}{n}$, then given $A$,
 $$P(A)=\frac{|A|}{|S|}=\frac{\#~ elements~in~A}{\#~ elements~in~S}$$
 
->[!theorem] Fundamental Theorem of Counting
+>[!tip] Theorem: Fundamental Theorem of Counting
 > If a job has $k$ sequential steps, and the $i$ th step can be done in $n_i$ ways, $i=1,2,\dots,k$, then the job can be done in $n_1\times n_2 \times \dots \times n_k$ ways.
 
->[!definition] Permutations and Combinations
-> # permutations: $_nP_r=\frac{n!}{(n-r)!}$
-> # permutations: $_nC_r= \frac{_nP_r}{r!}=\frac{n!}{r!(n-r)!}=  \binom{n}{r}$
+>[!info] Definition: Permutations and Combinations
+> \# permutations: $_nP_r=\frac{n!}{(n-r)!}$
+> \# permutations: $_nC_r= \frac{_nP_r}{r!}=\frac{n!}{r!(n-r)!}=  \binom{n}{r}$
 
 >[!example] Sample with replacement
 > Sample $r$ from a finite sample space $S=\{s_1,s_2,\dots,s_n\}$.

@@ -1,0 +1,1 @@
+note, info, tip, warning, example, quote
