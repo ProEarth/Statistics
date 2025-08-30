@@ -1,0 +1,7 @@
+@media print {
+  .callout,
+  blockquote {
+    background: transparent !important;
+    color: black !important;
+  }
+}
