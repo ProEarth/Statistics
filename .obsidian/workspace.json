@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "STAT601 Statistics 1 - Basics of Probability Theory.md",
+                "file": "Statistics 1 - Basics of Probability Theory.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "STAT601 Statistics 1 - Basics of Probability Theory"
+              "title": "Statistics 1 - Basics of Probability Theory"
             }
           }
         ]
@@ -33,12 +33,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "STAT601 Statistics 1 - Basics of Probability Theory.md",
+                "file": "Statistics 1 - Basics of Probability Theory.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "STAT601 Statistics 1 - Basics of Probability Theory"
+              "title": "Statistics 1 - Basics of Probability Theory"
             }
           }
         ]
@@ -191,9 +191,9 @@
   },
   "active": "068a826f3f0b1d3b",
   "lastOpenFiles": [
-    "LICENSE",
     "2.md",
-    "STAT601 Statistics 1 - Basics of Probability Theory.md",
+    "Statistics 1 - Basics of Probability Theory.md",
+    "LICENSE",
     "西部荒野卡牌系统设计.md",
     "Combinatoric and graph theory.md"
   ]
