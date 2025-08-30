@@ -56,7 +56,7 @@ Random Experiment
 > 1. A and B are disjoint (mutually exclusive) if $A \bigcup B = \varnothing$
 > 2. $A_1,A_2,\dots,A_n$ form a patition of S if they are pairwise disjoint and the union $\bigcup_{i=1}^n A_i=S$ is exactly the sample space.
 
-> [!tip] Theorem: distribution laws
+> [!tip] Theorem: Distribution Laws
 > $$
 > A \bigcap \left(B \bigcup C\right)=\left(A \bigcap B\right) \bigcup \left(A \bigcap C\right)
 > $$
@@ -88,7 +88,7 @@ These generates that $A_1\bigcup A_2$, , $\varnothing$($A\bigcap A^c$), $S$($A\b
 > $S=(-\infty,+\infty)$ is Borel sigma-Algebra 
 > $\mathcal{B}$ consists of all open sets $(a,b)$ and all unions and intersections of them
 
-> [!definition] probability function (Kolmogorov Axioms)
+> [!info] Definition: Probability Function (Kolmogorov Axioms)
 > Given a sample space $\mathcal{S}$ and $\sigma$-algebra $\mathcal{B}$, a probabiliy function $P$ on $(P,\mathcal{S},\mathcal{B})$ satisfies,
 >> 1. $P(A)\geq 0,\quad \forall A \in \mathcal{B}$
 >> 2. $P(\mathcal{S})=1$
