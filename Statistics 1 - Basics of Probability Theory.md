@@ -116,8 +116,8 @@ $$P(A)=\frac{|A|}{|S|}=\frac{\#~ elements~in~A}{\#~ elements~in~S}$$
 > If a job has $k$ sequential steps, and the $i$ th step can be done in $n_i$ ways, $i=1,2,\dots,k$, then the job can be done in $n_1\times n_2 \times \dots \times n_k$ ways.
 
 >[!definition] Permutations and Combinations
-> $\#$ permutations: $_nP_r=\frac{n!}{(n-r)!}$
-> $\#$ permutations: $_nC_r= \frac{_nP_r}{r!}=\frac{n!}{r!(n-r)!}=  \binom{n}{r}$
+> # permutations: $_nP_r=\frac{n!}{(n-r)!}$
+> # permutations: $_nC_r= \frac{_nP_r}{r!}=\frac{n!}{r!(n-r)!}=  \binom{n}{r}$
 
 >[!example] Sample with replacement
 > Sample $r$ from a finite sample space $S=\{s_1,s_2,\dots,s_n\}$.
